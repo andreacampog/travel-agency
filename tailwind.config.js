@@ -4,20 +4,20 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage:{
-        'sanFrancisco': "url('./src/img/sanFrancisco.jpg')",
-        'sanFranciscoDesktop': "url('./src/img/sanFranciscoDesktop.jpg')",
-        'bali': "url('./src/img/bali.jpg')",
-        'chicago': "url('./src/img/chicago.jpg')",
-        'europe': "url('./src/img/europe.jpg')",
-        'iceland': "url('./src/img/iceland.jpg')",
-        'LA':"url('./src/img/LA.jpg')",
-        'miami':"url('./src/img/miami.jpg')",
-        'newYork':"url('./src/img/new_york.jpg')",
-        'norway': "url('./src/img/norway.jpg')",
-        'seattle': "url('./src/img/seattle.jpg')",
-        'switzerland': "url('./src/img/switzerland.jpg')",
-        'sydney': "url('./src/img/sydney.jpg')",
-        'yosemite': "url('./src/img/yosemite.jpg')"
+        'sanFrancisco': "url('./img/sanFrancisco.jpg')",
+        'sanFranciscoDesktop': "url('./img/sanFranciscoDesktop.jpg')",
+        'bali': "url('./img/bali.jpg')",
+        'chicago': "url('./img/chicago.jpg')",
+        'europe': "url('./img/europe.jpg')",
+        'iceland': "url('./img/iceland.jpg')",
+        'LA':"url('./img/LA.jpg')",
+        'miami':"url('./img/miami.jpg')",
+        'newYork':"url('./img/new_york.jpg')",
+        'norway': "url('./img/norway.jpg')",
+        'seattle': "url('./img/seattle.jpg')",
+        'switzerland': "url('./img/switzerland.jpg')",
+        'sydney': "url('./img/sydney.jpg')",
+        'yosemite': "url('./img/yosemite.jpg')"
       },
       backgroundColor: theme=>({
         ...theme('colors'),
